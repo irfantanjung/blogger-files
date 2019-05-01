@@ -57,6 +57,10 @@
   margin-left: 20px;
 }
 
+#dasarpelit img {
+  max-width: 100% !important; 
+}
+
 @media(max-width:680px) {
   #dasarpelit .inner {
     width: calc(100% - 80px);
