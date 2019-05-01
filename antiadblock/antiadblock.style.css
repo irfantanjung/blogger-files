@@ -1,4 +1,4 @@
-#kamujahat {
+#dasarpelit {
   background: rgba(0,0,0,0.25);
   position: fixed;
   margin: auto;
@@ -11,7 +11,7 @@
   z-index: 999999;
 }
 
-#kamujahat .inner {
+#dasarpelit .inner {
   background: #ec3e3e;
   color: #fff;
   box-shadow: 0 5px 20px rgba(0,0,0,0.1);
@@ -21,7 +21,7 @@
   margin: 80px auto;
 }
 
-#kamujahat button {
+#dasarpelit button {
   padding: 10px 20px;
   border: 0;
   background: #e9e9e9;
@@ -31,11 +31,11 @@
   transition: all .2s;
 }
 
-#kamujahat button.active {
+#dasarpelit button.active {
   background: #fff;
 }
 
-#kamujahat .tutorial {
+#dasarpelit .tutorial {
   background: #fff;
   text-align: left;
   color: #000;
@@ -45,20 +45,20 @@
   line-height: 30px;
 }
 
-#kamujahat .tutorial div {
+#dasarpelit .tutorial div {
   display: none;
 }
 
-#kamujahat .tutorial div.active {
+#dasarpelit .tutorial div.active {
   display: block;
 }
 
-#kamujahat ol {
+#dasarpelit ol {
   margin-left: 20px;
 }
 
 @media(max-width:680px) {
-  #kamujahat .inner {
+  #dasarpelit .inner {
     width: calc(100% - 80px);
     margin: auto;
   }
